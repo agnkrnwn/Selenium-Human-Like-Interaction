@@ -60,7 +60,7 @@ def simulate_human_behavior(driver):
 
     # Add scrolling actions with varying durations and dynamic scroll distances
     scrolling_actions_count = random.randint(5, 10)
-    actions.extend([("scroll", random.uniform(5, 20)) for _ in range(scrolling_actions_count)])
+    actions.extend([("scroll", random.uniform(2, 5)) for _ in range(scrolling_actions_count)])
 
     # Shuffle the list of actions for a random sequence
     random.shuffle(actions)
@@ -131,7 +131,7 @@ def change_viewport(driver):
 # Function to simulate a user-initiated interruption
 def user_interruption():
     # Emulate a user-initiated interruption by pausing for a while
-    time.sleep(random.uniform(13, 30))
+    time.sleep(random.uniform(13, 60))
 
 # Function to perform a random search and scrolling on a website
 def search_and_scroll_randomly(keyword, site, max_iterations=3):

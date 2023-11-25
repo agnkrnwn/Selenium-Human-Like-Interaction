@@ -67,6 +67,7 @@ This Python script utilizes the Selenium WebDriver to simulate human-like behavi
 - [Selenium](https://www.selenium.dev/)
 - [Colorama](https://pypi.org/project/colorama/)
 - [tqdm](https://pypi.org/project/tqdm/)
+- [user agent](https://www.useragents.me/)
 
 ## Customization
 

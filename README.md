@@ -42,10 +42,10 @@ This script uses Selenium to simulate human-like interactions with a web page. I
 2. Run the script:
 
     ```bash
-    python your_script_name.py
+    python selenium_human.py.py
     ```
 
-Replace `your_script_name.py` with the actual name of your Python script.
+Replace `selenium_human.py.py` with the actual name of your Python script.
 
 ## Customization
 

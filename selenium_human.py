@@ -27,8 +27,18 @@ def colored_print(message, color=Fore.WHITE):
 
 # Function to set a random geolocation for the browser
 def set_random_location(driver):
-    latitude = random.uniform(-11.0, 6.0)
-    longitude = random.uniform(94.0, 141.0)
+    # Rough estimate of latitude and longitude ranges for Asia
+    latitude = random.uniform(0.0, 60.0)  
+    longitude = random.uniform(30.0, 150.0)
+
+    # indonesian region
+    # latitude = random.uniform(-11.0, 6.0)
+    # longitude = random.uniform(94.0, 141.0)
+
+    #entire world
+    #latitude = random.uniform(-90.0, 90.0)
+    #longitude = random.uniform(-180.0, 180.0)
+
     colored_print(f"Setting random location: Latitude {latitude}, Longitude {longitude}", Fore.MAGENTA)
 
     location_script = f"navigator.geolocation.getCurrentPosition = function(callback) {{ callback({{'coords': {{'latitude': {latitude}, 'longitude': {longitude}}}}}); }};"

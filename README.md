@@ -48,7 +48,7 @@ This Python script utilizes the Selenium WebDriver to simulate human-like behavi
 
 
 ## Configuration
-- **user_agent.json**: Contains a list of user agents used for random selection during each iteration.
+- **user_agent.json**: Contains a list of user agents used for random selection during each iteration. For updated user agents, you can find them [here](https://www.useragents.me/).
 - **selenium_human.py**: Main Python script file.
 - **requirements.txt**: Lists the required Python packages.
 

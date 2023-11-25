@@ -217,4 +217,4 @@ def search_and_scroll_randomly(keyword, site, max_iterations=3):
 
 # Run the search_and_scroll_randomly function with specified keyword, site, and max iterations
 if __name__ == "__main__":
-    search_and_scroll_randomly("konveksi tas", "https://bikintas.online", max_iterations=1)
+    search_and_scroll_randomly("konveksi tas", "https://bikintas.online", max_iterations=51)
